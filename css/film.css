@@ -1,0 +1,118 @@
+/*css style film.html*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header#mainHeader{
+	width: 100%;
+	height:100px;
+	background-color: #4B5F84;
+}
+
+#mainHeader h1{
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 40px;
+	color: #E3E7F2;
+}
+
+article#infoMovie{
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #D5DBE9;
+}
+
+.photo{
+	width: 440px;
+	height: 600px;
+	float: left;
+	margin: 30px;
+}
+
+.about{
+	width: 440px;
+	height: 600px;
+	float: right;
+	margin: 30px 30px 30px 10px; 
+	padding: 15px 10px;
+}
+
+.about h2{
+	font-size: 20px;
+	color: #1D3D70;
+}
+
+.about h3{
+	font-size: 16px;
+	color: #1D3D70;
+}
+
+p.infotime{
+	font-size: 13px;
+	color: #3D5887;
+}
+
+p.descrip{
+	font-size: 14px;
+	margin:20px 0;
+	text-align: justify;
+}
+
+.about ol li{
+	list-style: none;
+	margin: 10px;
+	font-size: 12px;
+	text-align: justify;
+	color: #4B5F84;
+	border-bottom: 1px dotted #8793AB;
+	padding-bottom: 10px;
+}
+
+.about ol li:last-child{
+	border: none;
+}
+
+.addInfo{
+	clear: both;
+	width: 940px;
+	height: 300px;
+	margin: auto;
+}
+
+.addInfo p{
+	color: #3D5887;
+}
+
+.addInfo aside{
+	margin:20px 0;
+}
+
+.addInfo aside ol li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.addInfo aside ol li a{
+	text-decoration: none;
+	color: #4B5F84;
+}
+
+.addInfo aside ol li a:hover{
+	text-decoration: underline;
+	color: #10264D;
+}
+
+footer#mainFooter{
+	width: 100%;
+	height:100px;
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 11px;
+	padding-top: 30px;
+}
